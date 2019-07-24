@@ -2,6 +2,6 @@
 
 Features:
   - consume the events from the Even Brite API.
-  - Filter events by category by name and place
+  - Filter events by category: name and place
   - print the results using the API date and Async Await
   - the code must be done with classes
