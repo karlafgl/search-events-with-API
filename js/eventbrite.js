@@ -1,6 +1,7 @@
 class EventBrite {
   constructor(){
-    this.token_auth = '5Q7M4MD2G2MS4TJ6J2AI';
+    // https://www.eventbriteapi.com/v3/users/me/events/?token=IZIWYWGUG333UK2AT625
+    this.token_auth = 'IZIWYWGUG333UK2AT625';
     this.ordenar = 'date';
   }
   //Obtener categorias desde el init 
