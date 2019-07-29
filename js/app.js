@@ -21,7 +21,7 @@ document.getElementById('buscarBtn').addEventListener('click', (e) => {
              .then(eventos => {
                   if(eventos.eventos.events.length > 0 ){
                        // Si hay eventos, mostrar el resultado
-                      //  ui.limpiarResultados();
+                       ui.limpiarResultados();
                        ui.mostrarEventos(eventos.eventos);
                   } else {
                        // No hay eventos enviar una alerta

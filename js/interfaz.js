@@ -50,6 +50,11 @@ class Interfaz {
     }, 3000);
   }
 
+  //limpiar resultados
+  limpiarResultados(){
+    this.listado.innerHTML = ''
+  }
+
  // Lee la respuesta de la API e imprime los resultados
  mostrarEventos(eventos) {
   // leer los eventos y agregarlos a una variable
